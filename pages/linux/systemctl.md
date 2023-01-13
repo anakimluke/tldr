@@ -31,6 +31,14 @@
 
 `systemctl daemon-reload`
 
+- List installed units:
+
+`systemctl list-unit-files`
+
+- List enabled units:
+
+`systemctl list-unit-files --state=enabled`
+
 - Check if a unit is enabled:
 
 `systemctl is-enabled {{unit}}`
